@@ -14,3 +14,11 @@ scrollTopbtn.addEventListener("click", () => {
     });
 });
 
+const rendersbtn = document.getElementById("renders-btn");
+rendersbtn.addEventListener("click", () => {
+    document.getElementById("renders").scrollIntoView({ behavior: 'smooth' });
+});
+
+
+
+
