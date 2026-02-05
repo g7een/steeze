@@ -14,11 +14,12 @@ scrollTopbtn.addEventListener("click", () => {
     });
 });
 
-const rendersbtn = document.getElementById("renders-btn");
-rendersbtn.addEventListener("click", () => {
-    document.getElementById("renders").scrollIntoView({ behavior: 'smooth' });
+const aboutbtn = document.getElementById("about-btn");
+aboutbtn.addEventListener("click", () => {
+    document.getElementById("about").scrollIntoView({ behavior: 'smooth' });
 });
 
-
-
-
+const home = document.querySelector(".nav-home");
+home.addEventListener("click", () => {
+    document.querySelector(".landing").scrollIntoView({ behavior: 'smooth' });
+});
